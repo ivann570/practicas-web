@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <header>
+        <h2>Formularios HTML</h2>
+    </header>
+    <main>
+        <div>
+            <h1>¿Dudas o consultas? Envía tu mensaje aqui</h1>
+            <p>¡Estimados estudiantes universitarios! Queremos invitarlos a unirse a nuestra comunidad en el foro de la escuela, donde pueden compartir sus inquietudes, preguntas y experiencias relacionadas con su vida universitaria. Ya sea que necesiten ayuda con un proyecto, estén buscando consejos para prepararse para un examen, o simplemente deseen conectar con otros estudiantes para intercambiar ideas, el foro es el lugar perfecto para hacerlo. Nuestro objetivo es crear un espacio inclusivo y colaborativo donde todos puedan contribuir y beneficiarse mutuamente. ¡No importa cuán grandes o pequeñas sean sus preguntas, estamos aquí para apoyarlos en cada paso del camino! Únete a nosotros en el foro y ayudemos a fortalecer aún más nuestra comunidad universitaria. Esperamos ver sus participaciones y contribuciones pronto.</p>
+        </div>
+        <div>
+            <form action="#" method="post">
+                <label for="">Nombre:
+                <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"></label>
+                <input type="tel" name="" id="" placeholder="Teléfono Estados Unidos" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+                <input list="opciones">
+                <datalist id="opciones">
+                    <option value="Estudiante">Estudiante</option>
+                    <option value="Empleado">Empleado</option>
+                    <option value="Egresado">Egresado</option>
+                    <option value="Aspirante">Aspirante</option>
+                </datalist>
+                <textarea name="Mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <input type="submit" value="enviar">
+            </form>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
