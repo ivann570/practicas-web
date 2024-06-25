@@ -1,0 +1,36 @@
+body {margin: 20px;}
+
+h1, h2, h3, h4 {font-family: Arial, Helvetica, sans-serif;}
+
+h1, h2 {color: black;}
+
+h3, h4 {color: gray;}
+
+h1 {font-size: 19px;}
+
+h2 {font-size: 17px;
+    margin-bottom: 20px;}
+
+h3 {font-size: 14px;
+    margin-top: -12px;}
+
+h4 {font-size: 14px;
+    margin-top: 16px;
+    margin-left: 10px;}
+
+.titulos {display: flex;}
+
+.titulos img {width: 50px;
+height: auto;
+margin-bottom: 20px;}
+
+.container {display: flex;}
+
+.lute {width: 95%;
+    margin-bottom: -8px;}
+
+.mom {width: 95%;
+    margin-bottom: -8px;}
+
+.jmsg {width: 95%;
+    margin-bottom: -8px;}

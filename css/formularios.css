@@ -1,0 +1,70 @@
+/* documento css */
+
+* {margin: 0px;
+    padding: 0px;}
+
+body {font-family: punkbaberegular;}
+
+.cabecera {width: 100%;
+        padding: 20px 0px;}
+
+.container {width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 15px;
+        box-sizing: border-box;}
+
+.item {width: 100%;
+        margin-bottom: 16px;}
+
+item span {font-size: .9em;}
+
+item input {width: 100%;
+        height: 40px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+        border-radius: 8px;
+        border: 1px solid rgba(0, 0, 0, 0.466);}
+
+item textarea {max-width: 100%;
+        min-width: 100%;
+        height: 100px;}
+
+
+
+.pie {}
+
+h1 {padding-bottom: 15px;
+    font-size: 40px;}
+
+h2 {text-align: center;
+width: 250px;
+margin: auto;
+padding: 15px;
+border: 2px solid black;
+border-radius: 100px;
+text-transform: uppercase;}
+
+/* tipografía */
+
+@font-face {
+    font-family: 'punkbaberegular';
+    src: url('/font/punkbabe_trial-webfont.woff2') format('woff2'),
+         url('/font/punkbabe_trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+
+@media only screen and (min-width: 992px;) {
+        h1 {font-size: 2.5em;}
+        .item p {font-size: 1.8 em;}
+        body {background: lightcyan;
+        .form {width: 50%;
+                margin:auto;}
+}
+@media only screen and (min-width: 1280px) {
+        .container {margin: auto;
+                width: 80%;}
+        .item {width: 50%;}
+        h1 {font-size: 2.4em;}
+        .item p {font-size: 1.5em;}
+}

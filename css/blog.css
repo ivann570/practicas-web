@@ -1,0 +1,95 @@
+/* documento css*/
+
+body {background: #b80609;
+    margin-right: 25px;
+    margin-left: 25px;}
+
+.ep {background-color: #f9f9ef;}
+.chel img {width: 25%;
+    float: right;
+    margin-left: 25px;
+    border: 6px solid #f9f9ef;}
+.carrera img {float: left;
+    margin-right: 25px;
+    margin-bottom: 15px;}
+
+.tl {display: flex;
+    font-size: 20px;}
+
+.tl li {font-family: 'Futura Std', sans-serif;font-family: 'Futura Std', sans-serif;}
+
+h1 {font-family: 'Univers', sans-serif;font-family: 'Univers', sans-serif;
+    font-size: 90px;
+    margin-bottom: -10px;
+        margin-top: 20px;
+    color: #f9f9ef ;
+    font-style: italic;
+    text-shadow: -1px 0 0 #f9f9ef ,
+    -2px 0 0 #f6eae3 ,
+    -3px 0 0 #f3dcd7 ,
+    -4px 0 0 #f0cecc ,
+    -5px 0 0 #ecc0c0 ,
+    -6px 0 0 #e9b1b4 ,
+    -7px 0 0 #e6a3a8 ,
+    -8px 0 0 #e2949c ,
+    -9px 0 0 #df868f ,
+    -10px 0 0 #db7783 ,
+    -11px 0 0 #d86977 ,
+    -12px 0 0 #d45a6b ,
+    -13px 0 0 #d14b5f ,
+    -14px 0 0 #cd3d52 ,
+    -15px 0 0 #ca2e46 ,
+    -16px 0 0 #c6203a ,
+    -17px 0 0 #c3112e ,
+    -18px 0 0 #bf0321 ,
+    -19px 0 0 #bc0415 ,
+    -20px 0 0 #b80609}
+
+h2 {font-family: 'Futura Std', sans-serif;font-family: 'Futura Std', sans-serif;
+    font-size: 49px;
+    font-style: italic;
+    color: #b80609;}
+
+h3, footer {font-family: 'Univers', sans-serif;font-family: 'Univers', sans-serif;
+    font-style: italic;
+    color: #f9f9ef;
+    font-size: 30px;}
+
+h1, h2{text-align: center;}
+
+p, li, strong {font-family: 'Futura Std', sans-serif;font-family: 'Futura Std', sans-serif;
+    color: #f9f9ef;}
+
+p, li {text-align: justify;}
+
+strong {text-align: center;
+    font-size: 17px;}
+
+footer {font-size: 16px;}
+
+.escucha {margin-bottom: 20px;
+        text-align: center;}
+
+.item {display: flex;
+    justify-content: center;
+    gap: 10px;}
+
+.item img {height: 75px;
+        box-sizing: border-box;}
+
+.compra {margin-bottom: 20px;
+        text-align: center;}
+
+.meti {display: flex;
+    justify-content: center;
+    gap: 10px;}
+
+.meti img {height: 75px;
+        box-sizing: border-box;}
+
+.wrapper {display: flex;
+            gap: 140px;
+            margin-bottom: 50px;
+            justify-content: center;}
+
+.container {text-align: center;}
